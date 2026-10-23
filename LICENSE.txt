@@ -1,0 +1,104 @@
+AUDIOSTAX — LICENZA D'USO GRATUITA
+Copyright © 2026 Enrico Fanucchi — https://www.enricofanucchi.com
+Tutti i diritti riservati, salvo quanto concesso qui sotto.
+
+Installando o usando AudioSTAX accetti questi termini. Se non li accetti, non installarlo.
+
+1. Uso gratuito. AudioSTAX è distribuito gratuitamente. Puoi installarlo e usarlo su
+   qualunque numero di computer, per scopi personali, professionali e commerciali.
+
+2. Distribuzione. Puoi ridistribuire i pacchetti originali e non modificati (DMG,
+   installer, zip, AppImage, .deb, .rpm), solo gratuitamente e insieme a questa licenza.
+   Non puoi venderli né presentare AudioSTAX come opera tua.
+
+3. Componenti di terze parti. AudioSTAX contiene componenti open source, ciascuno con la
+   propria licenza (file THIRD_PARTY_LICENSES.txt, anche in Informazioni › Licenze di
+   terze parti). Per quei componenti valgono le loro licenze, e nulla in questo testo le
+   limita. In particolare FFmpeg (GNU LGPL 2.1 o successiva) è incluso come programma
+   separato (ffmpeg e ffprobe nella cartella bin dell'app) che puoi sostituire con una
+   tua versione; i sorgenti esatti sono indicati nelle note di ogni release. Sono
+   consentiti la modifica per uso personale e il reverse engineering necessari a fare il
+   debug di tali modifiche.
+
+4. Nessuna garanzia. AudioSTAX è fornito "così com'è" e "come disponibile", senza
+   garanzie di alcun tipo, esplicite o implicite, comprese quelle di commerciabilità,
+   idoneità a uno scopo particolare, assenza di errori e di interruzioni.
+
+5. Limitazione di responsabilità. Nei limiti massimi consentiti dalla legge applicabile,
+   l'autore non è responsabile di alcun danno, diretto o indiretto, incidentale o
+   consequenziale, comprese la perdita o il danneggiamento di file e di dati, il mancato
+   guadagno e l'interruzione dell'attività, derivante dall'uso o dall'impossibilità di
+   usare AudioSTAX, anche se avvisato della possibilità di tali danni. Resta ferma la
+   responsabilità che la legge non consente di escludere (per esempio per dolo o colpa
+   grave).
+
+6. Responsabilità di chi lo usa. Sei l'unico responsabile dei contenuti che apri,
+   converti, elabori o pubblichi con AudioSTAX: in particolare dei diritti d'autore e
+   connessi, del consenso delle persone registrate e della protezione dei dati. Le
+   funzioni di separazione della voce e di trascrizione vanno usate solo su materiale
+   che hai il diritto di usare.
+   Conserva sempre una copia di sicurezza dei tuoi file.
+
+7. Modelli di intelligenza artificiale. I modelli opzionali si scaricano da terze parti,
+   ciascuno con la propria licenza, mostrata prima del download e salvata nella sua
+   cartella. Il loro risultato può essere impreciso e va sempre verificato.
+
+8. Rete. AudioSTAX lavora offline. Si collega alla rete solo per scaricare i modelli
+   che scegli e, se attivo, per chiedere a GitHub l'ultima versione disponibile. Non
+   invia audio, file né dati personali.
+
+9. Legge applicabile. Questa licenza è regolata dalla legge italiana. Restano salvi i
+   diritti che la legge del tuo paese riconosce ai consumatori e che non possono essere
+   limitati per contratto. Se una clausola risultasse invalida, le altre restano valide.
+
+------------------------------------------------------------------------------------------
+
+AUDIOSTAX — FREE LICENCE
+Copyright © 2026 Enrico Fanucchi — https://www.enricofanucchi.com
+All rights reserved, except as granted below.
+
+By installing or using AudioSTAX you accept these terms. If you do not accept them, do not
+install it. (The Italian text above prevails in case of differences.)
+
+1. Free use. AudioSTAX is distributed free of charge. You may install and use it on any
+   number of computers, for personal, professional and commercial purposes.
+
+2. Distribution. You may redistribute the original, unmodified packages (DMG, installer,
+   zip, AppImage, .deb, .rpm), only free of charge and together with this licence. You may not
+   sell them or present AudioSTAX as your own work.
+
+3. Third-party components. AudioSTAX contains open-source components, each under its own
+   licence (THIRD_PARTY_LICENSES.txt, also in About › Third-party licenses). Those licences
+   govern their components and nothing in this text restricts them. In particular FFmpeg
+   (GNU LGPL 2.1 or later) is included as a separate program (ffmpeg and ffprobe in the
+   app's bin folder) that you may replace with your own build; the exact sources are listed
+   in the notes of each release. Modification for your own use and the reverse engineering
+   needed to debug such modifications are allowed.
+
+4. No warranty. AudioSTAX is provided "as is" and "as available", without warranties of any
+   kind, express or implied, including merchantability, fitness for a particular purpose,
+   and freedom from errors or interruptions.
+
+5. Limitation of liability. To the maximum extent permitted by applicable law, the author
+   is not liable for any damages, direct or indirect, incidental or consequential,
+   including loss or corruption of files and data, loss of profits and business
+   interruption, arising from the use of or inability to use AudioSTAX, even if advised of
+   the possibility of such damages. Liability that the law does not allow to be excluded
+   (for example for wilful misconduct or gross negligence) is unaffected.
+
+6. Your responsibility. You alone are responsible for the content you open, record,
+   convert, process or publish with AudioSTAX, in particular copyright and related rights,
+   the consent of people recorded and data protection. Voice separation and transcription
+   must only be used on material you have the right to use. Always keep a backup of your files.
+
+7. Artificial-intelligence models. Optional models are downloaded from third parties, each
+   under its own licence, shown before the download and saved in its folder. Their results
+   may be inaccurate and must always be checked.
+
+8. Network. AudioSTAX works offline. It connects to the network only to download the
+   models you choose and, when enabled, to ask GitHub for the latest version. It sends no
+   audio, files or personal data.
+
+9. Governing law. This licence is governed by Italian law. Consumers keep the rights that
+   the law of their country grants them and that cannot be limited by contract. If a
+   clause is held invalid, the others remain in force.
