@@ -82,7 +82,7 @@ The built-in **guide (F1)** explains every option, LUFS, formats and file-name v
 - **Does it need the internet?** Only once, to download the AI models you choose (8 MB for noise reduction, 32–574 MB for subtitles). Everything else runs offline and no audio ever leaves your computer.
 - **Why is my file called “name (1)”?** A file with that name already exists (often the original, when converting to the same format in the same folder). Pick another folder, change the name with a variable or choose *Overwrite*.
 - **A very short clip stays quieter than the target.** Clips under about 3 seconds cannot be measured reliably and are converted without forcing the level; the same for digital silence.
-- **Which FFmpeg does it use?** Its own build, included in the app: LGPL, audio only, with no GPL or non-free parts.
+- **Which FFmpeg does it use?** Its own build, included in the app: LGPL, audio only (no video decoders), with no GPL or non-free parts. The exact sources and build script are attached to every release (`AudioSTAX-v<version>-FFmpeg-sources.tar.gz`).
 
 ### Support AudioSTAX
 
@@ -158,7 +158,7 @@ La **guida integrata (F1)** spiega nel dettaglio ogni opzione, i LUFS, i formati
 - **Serve internet?** Solo una volta, per scaricare i modelli AI che scegli (8 MB per la riduzione del rumore, da 32 a 574 MB per i sottotitoli). Tutto il resto funziona offline e nessun audio lascia mai il computer.
 - **Perché il mio file si chiama “nome (1)”?** Esiste già un file con quel nome (spesso l'originale, se converti nello stesso formato nella stessa cartella). Scegli un'altra cartella, cambia il nome con una variabile oppure seleziona *Sovrascrivi*.
 - **Una clip molto breve resta più bassa del target.** Sotto i 3 secondi circa la misura non è affidabile e il file viene convertito senza forzare il livello; lo stesso per il silenzio digitale.
-- **Quale FFmpeg usa?** Il suo, incluso nell'app: LGPL, solo audio, senza parti GPL o non libere.
+- **Quale FFmpeg usa?** Il suo, incluso nell'app: LGPL, solo audio (nessun decoder video), senza parti GPL o non libere. I sorgenti esatti e lo script di compilazione sono allegati a ogni release (`AudioSTAX-v<versione>-FFmpeg-sources.tar.gz`).
 
 ### Sostieni AudioSTAX
 
