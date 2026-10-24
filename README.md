@@ -7,7 +7,7 @@
 
 <p align="center">
 <a href="https://github.com/kikoz85/audioSTAX/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/audioSTAX?label=download&color=FF5722" alt="Download"></a>
-<a href="https://www.enricofanucchi.com/en?utm_source=github&utm_campaign=audiostax"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
+<a href="https://www.enricofanucchi.com/en/app/audiostax?utm_source=github&utm_campaign=audiostax"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
 <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white" alt="Sponsor AudioSTAX"></a>
 <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-E91E63" alt="macOS · Windows · Linux">
 </p>
