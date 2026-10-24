@@ -16,6 +16,8 @@
 
 <p align="center"><img src="screenshots/en/batch-running.png" alt="AudioSTAX converting a batch" width="900"></p>
 
+<p align="center">▶ <a href="video/audiostax-tour-en.mp4"><b>Watch AudioSTAX at work</b></a> (1 min, English) · ▶ <a href="video/audiostax-tour-it.mp4"><b>Guarda AudioSTAX al lavoro</b></a> (1 min, italiano)</p>
+
 ---
 
 ## English
@@ -32,10 +34,12 @@ AudioSTAX takes a folder of recordings, songs or videos and gives you back files
 - **See before you convert**: waveform, format, sample rate, duration and measured loudness of every file, with the gain needed to reach the target.
 - **Fast**: several files at once on all your cores, typically 20–100× faster than real time. Pause, resume or stop at any moment; progress in the Dock or taskbar.
 - **Safe**: originals are never touched, files are written under a temporary name and renamed only when complete, existing files are renamed, overwritten or skipped as you choose.
-- **File names from variables**: `{artist} - {title} [{lufs}LUFS]`, tags and cover art kept.
+- **Tags and cover art for the whole batch**: type an artist, album, year or genre once and it goes into every file; title from the file name, track numbers in queue order (1/12, 2/12…). Keep, replace or remove the cover art (MP3, FLAC and AAC).
+- **File names your way**: variables like `{n:02} {artist} - {title}`, find-and-replace rules and letter case, with a live preview of the final names that warns about files already there.
 - **Five languages**: English, Italiano, Deutsch, Español, Français, with a complete built-in guide (F1).
 
 <p align="center"><img src="screenshots/en/ai.png" alt="Speech cleanup and subtitles on a batch" width="900"></p>
+<p align="center"><img src="screenshots/en/tags.png" alt="Tags, cover art and output names" width="900"></p>
 
 ### Download
 
@@ -58,6 +62,8 @@ All files are on the **[Releases page](https://github.com/kikoz85/audioSTAX/rele
 - **Linux** — the AppImage needs FUSE (`libfuse2` on older distributions); without it run `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
 ### How to use it
+
+▶ [A one-minute video](video/audiostax-tour-en.mp4) shows every screen: adding files, the inspector, a batch with speech cleanup and subtitles, settings and the guide.
 
 1. **Add** files or whole folders: drag them onto the window or use **Add files / Add folder** (⌘O / Ctrl+O).
 2. **Choose** the result in the panel on the right — format, loudness target, sample rate, channels, destination and file name — or click a **quick preset** at the bottom:
@@ -96,14 +102,18 @@ AudioSTAX prende una cartella di registrazioni, brani o video e te li restituisc
 
 - **Conversione batch** in WAV (16/24/32-bit float), FLAC, MP3 (CBR/VBR), AAC (.m4a), Opus e OGG Vorbis — da quasi ogni formato audio e dalla colonna sonora di video MP4, MOV, MKV, WebM e AVI.
 - **Normalizzazione della loudness in LUFS** (EBU R128 / ITU-R BS.1770) a due passaggi: una sola correzione di guadagno precisa che conserva la dinamica, con tetto true peak. Preset per **podcast (−16)**, **streaming (−14)** e **broadcast (−23)**, oppure valori tuoi.
+- **Pulizia della voce su interi batch**: riduzione del rumore con AI (DeepFilterNet) per ventole, traffico e stanze rumorose, una modalità leggera per il fruscio, rimozione automatica del ronzio di rete a 50/60 Hz e uniforma voci che pareggia voci basse e alte.
+- **Sottotitoli e trascrizioni** con Whisper, scritti accanto a ogni file convertito: SRT e VTT per player e YouTube, TXT per le note dell'episodio, JSON con i tempi di ogni parola. Lingua riconosciuta in automatico.
 - **AAC Apple AudioToolbox** su macOS: l'encoder di Apple, qualità eccellente con la CPU quasi a riposo.
 - **Vedi prima di convertire**: forma d'onda, formato, frequenza, durata e loudness misurata di ogni file, con il guadagno necessario per arrivare al target.
 - **Veloce**: più file insieme su tutti i core, di solito 20–100 volte più veloce del tempo reale. Pausa, ripresa o stop in qualsiasi momento; avanzamento nel Dock o nella barra delle applicazioni.
 - **Sicuro**: gli originali non vengono mai toccati, i file vengono scritti con un nome temporaneo e rinominati solo a lavoro finito, i file esistenti vengono rinominati, sovrascritti o saltati come preferisci.
-- **Nomi dei file con variabili**: `{artist} - {title} [{lufs}LUFS]`, tag e copertina mantenuti.
+- **Tag e copertina per tutto il batch**: scrivi una volta artista, album, anno o genere e finiscono in tutti i file; titolo dal nome del file, numeri di traccia nell'ordine della coda (1/12, 2/12…). Copertina mantenuta, sostituita o rimossa (MP3, FLAC e AAC).
+- **Nomi dei file come vuoi tu**: variabili come `{n:02} {artist} - {title}`, regole trova e sostituisci e maiuscole/minuscole, con l'anteprima dei nomi finali che avvisa se un file esiste già.
 - **Cinque lingue**: italiano, inglese, tedesco, spagnolo e francese, con una guida completa integrata (F1).
 
 <p align="center"><img src="screenshots/it/ai.png" alt="Pulizia della voce e sottotitoli su un batch" width="900"></p>
+<p align="center"><img src="screenshots/it/tags.png" alt="Tag, copertina e nomi in uscita" width="900"></p>
 
 ### Download
 
@@ -126,6 +136,8 @@ Tutti i file sono nella **[pagina Releases](https://github.com/kikoz85/audioSTAX
 - **Linux** — l'AppImage richiede FUSE (`libfuse2` sulle distribuzioni più vecchie); senza, avviala con `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
 ### Come si usa
+
+▶ [Un video di un minuto](video/audiostax-tour-it.mp4) mostra tutte le schermate: aggiunta dei file, l'inspector, un batch con pulizia della voce e sottotitoli, impostazioni e guida.
 
 1. **Aggiungi** file o intere cartelle: trascinali sulla finestra o usa **Aggiungi file / Aggiungi cartella** (⌘O / Ctrl+O).
 2. **Scegli** il risultato nel pannello a destra — formato, target di loudness, frequenza, canali, destinazione e nome del file — oppure clicca un **preset rapido** in basso:
