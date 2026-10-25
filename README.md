@@ -7,7 +7,7 @@
 
 <p align="center">
 <a href="https://github.com/kikoz85/audioSTAX/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/audioSTAX?label=download&color=FF5722" alt="Download"></a>
-<a href="https://www.enricofanucchi.com/en/app/audiostax?utm_source=github&utm_campaign=audiostax"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
+<a href="https://www.enricofanucchi.com/en?utm_source=github&utm_campaign=audiostax"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
 <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white" alt="Sponsor AudioSTAX"></a>
 <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-E91E63" alt="macOS · Windows · Linux">
 </p>
@@ -48,12 +48,19 @@ AudioSTAX takes a folder of recordings, songs or videos and gives you back files
 | **macOS** 12+ (Apple Silicon) | `AudioSTAX-v<version>-macOS.dmg` | open the DMG and drag AudioSTAX to Applications |
 | **Windows** 10/11 (x64) | `AudioSTAX-v<version>-Windows-x64-Setup.exe` | installs for your user, no administrator rights |
 | | `AudioSTAX-v<version>-Windows-x64.zip` | portable: unzip and run `audiostax_ui.exe` |
+| **Windows** 11 on ARM (Snapdragon, Parallels on Mac) | `AudioSTAX-v<version>-Windows-arm64-Setup.exe` | native ARM64 build, installs for your user |
+| | `AudioSTAX-v<version>-Windows-arm64.zip` | portable ARM64 build |
 | **Linux** (x86_64) | `AudioSTAX-v<version>-Linux-x86_64.AppImage` | `chmod +x` and run |
 | | `audiostax_<version>_amd64.deb` | Debian, Ubuntu, Mint: `sudo apt install ./audiostax_<version>_amd64.deb` |
 | | `audiostax-<version>-1.x86_64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<version>-1.x86_64.rpm` |
 | | `AudioSTAX-v<version>-Linux-x86_64.tar.gz` | unpack anywhere and run `AudioSTAX/audiostax_ui` |
+| **Linux** ARM64 (Raspberry Pi 4/5, ARM laptops and servers) | `AudioSTAX-v<version>-Linux-aarch64.AppImage` | `chmod +x` and run |
+| | `audiostax_<version>_arm64.deb` | Debian, Ubuntu, Raspberry Pi OS (64-bit): `sudo apt install ./audiostax_<version>_arm64.deb` |
+| | `audiostax-<version>-1.aarch64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<version>-1.aarch64.rpm` |
+| | `AudioSTAX-v<version>-Linux-aarch64.tar.gz` | unpack anywhere and run `AudioSTAX/audiostax_ui` |
 
 All files are on the **[Releases page](https://github.com/kikoz85/audioSTAX/releases/latest)**, with their SHA-256 checksums.
+Linux ARM64 runs on Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bit), Fedora 35 or later. A Windows on ARM PC can also run the x64 build through emulation, but the ARM64 one is native and faster.
 
 ### First launch
 
@@ -122,12 +129,19 @@ AudioSTAX prende una cartella di registrazioni, brani o video e te li restituisc
 | **macOS** 12+ (Apple Silicon) | `AudioSTAX-v<versione>-macOS.dmg` | apri il DMG e trascina AudioSTAX in Applicazioni |
 | **Windows** 10/11 (x64) | `AudioSTAX-v<versione>-Windows-x64-Setup.exe` | si installa per il tuo utente, senza diritti di amministratore |
 | | `AudioSTAX-v<versione>-Windows-x64.zip` | portabile: estrai e avvia `audiostax_ui.exe` |
+| **Windows** 11 su ARM (Snapdragon, Parallels su Mac) | `AudioSTAX-v<versione>-Windows-arm64-Setup.exe` | versione nativa ARM64, si installa per il tuo utente |
+| | `AudioSTAX-v<versione>-Windows-arm64.zip` | versione ARM64 portabile |
 | **Linux** (x86_64) | `AudioSTAX-v<versione>-Linux-x86_64.AppImage` | `chmod +x` e avvia |
 | | `audiostax_<versione>_amd64.deb` | Debian, Ubuntu, Mint: `sudo apt install ./audiostax_<versione>_amd64.deb` |
 | | `audiostax-<versione>-1.x86_64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<versione>-1.x86_64.rpm` |
 | | `AudioSTAX-v<versione>-Linux-x86_64.tar.gz` | estrai dove vuoi e avvia `AudioSTAX/audiostax_ui` |
+| **Linux** ARM64 (Raspberry Pi 4/5, portatili e server ARM) | `AudioSTAX-v<versione>-Linux-aarch64.AppImage` | `chmod +x` e avvia |
+| | `audiostax_<versione>_arm64.deb` | Debian, Ubuntu, Raspberry Pi OS (64-bit): `sudo apt install ./audiostax_<versione>_arm64.deb` |
+| | `audiostax-<versione>-1.aarch64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<versione>-1.aarch64.rpm` |
+| | `AudioSTAX-v<versione>-Linux-aarch64.tar.gz` | estrai dove vuoi e avvia `AudioSTAX/audiostax_ui` |
 
 Tutti i file sono nella **[pagina Releases](https://github.com/kikoz85/audioSTAX/releases/latest)**, con i relativi checksum SHA-256.
+Linux ARM64 funziona su Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bit), Fedora 35 o successivi. Un PC Windows su ARM può usare anche la versione x64 in emulazione, ma quella ARM64 è nativa e più veloce.
 
 ### Primo avvio
 
