@@ -64,7 +64,7 @@ Linux ARM64 runs on Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bit), 
 
 ### First launch
 
-- **macOS** — AudioSTAX is not yet signed with an Apple certificate. Right-click the app in Applications → **Open** → **Open**. If macOS still refuses: **System Settings → Privacy & Security → Open Anyway**.
+- **macOS** — AudioSTAX is signed with a Developer ID and notarized by Apple: drag it to Applications and open it with a double click, no warnings.
 - **Windows** — if SmartScreen shows “Windows protected your PC”, click **More info → Run anyway**.
 - **Linux** — the AppImage needs FUSE (`libfuse2` on older distributions); without it run `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
@@ -145,7 +145,7 @@ Linux ARM64 funziona su Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bi
 
 ### Primo avvio
 
-- **macOS** — AudioSTAX non è ancora firmato con un certificato Apple. Clic destro sull'app in Applicazioni → **Apri** → **Apri**. Se macOS rifiuta ancora: **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque**.
+- **macOS** — AudioSTAX è firmato con un Developer ID e notarizzato da Apple: trascinalo in Applicazioni e aprilo con un doppio clic, senza avvisi.
 - **Windows** — se SmartScreen mostra “PC protetto da Windows”, clicca **Ulteriori informazioni → Esegui comunque**.
 - **Linux** — l'AppImage richiede FUSE (`libfuse2` sulle distribuzioni più vecchie); senza, avviala con `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
