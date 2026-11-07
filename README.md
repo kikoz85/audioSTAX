@@ -7,6 +7,7 @@
 
 <p align="center">
 <a href="https://github.com/kikoz85/audioSTAX/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/audioSTAX?label=download&color=FF5722" alt="Download"></a>
+<a href="https://apps.microsoft.com/detail/9NCLXR7CMNX4"><img src="https://img.shields.io/badge/Microsoft%20Store-get%20it-0078D4?logo=microsoft&logoColor=white" alt="Get it from the Microsoft Store"></a>
 <a href="https://www.enricofanucchi.com/en?utm_source=github&utm_campaign=audiostax"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
 <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white" alt="Sponsor AudioSTAX"></a>
 <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-E91E63" alt="macOS · Windows · Linux">
@@ -46,6 +47,7 @@ AudioSTAX takes a folder of recordings, songs or videos and gives you back files
 | System | File | Notes |
 |---|---|---|
 | **macOS** 12+ (Apple Silicon) | `AudioSTAX-v<version>-macOS.dmg` | open the DMG and drag AudioSTAX to Applications |
+| **Windows** 10/11 (x64 and ARM64) | [Microsoft Store](https://apps.microsoft.com/detail/9NCLXR7CMNX4) | click **Get**: the Store installs the right version and keeps it updated |
 | **Windows** 10/11 (x64) | `AudioSTAX-v<version>-Windows-x64-Setup.exe` | installs for your user, no administrator rights |
 | | `AudioSTAX-v<version>-Windows-x64.zip` | portable: unzip and run `audiostax_ui.exe` |
 | **Windows** 11 on ARM (Snapdragon, Parallels on Mac) | `AudioSTAX-v<version>-Windows-arm64-Setup.exe` | native ARM64 build, installs for your user |
@@ -59,13 +61,13 @@ AudioSTAX takes a folder of recordings, songs or videos and gives you back files
 | | `audiostax-<version>-1.aarch64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<version>-1.aarch64.rpm` |
 | | `AudioSTAX-v<version>-Linux-aarch64.tar.gz` | unpack anywhere and run `AudioSTAX/audiostax_ui` |
 
-All files are on the **[Releases page](https://github.com/kikoz85/audioSTAX/releases/latest)**, with their SHA-256 checksums.
+All files are on the **[Releases page](https://github.com/kikoz85/audioSTAX/releases/latest)**, with their SHA-256 checksums. On Windows the easiest way is **[AudioSTAX on the Microsoft Store](https://apps.microsoft.com/detail/9NCLXR7CMNX4)**: same features and bundled tools as the installer, updates through the Store, uninstall from **Settings → Apps**.
 Linux ARM64 runs on Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bit), Fedora 35 or later. A Windows on ARM PC can also run the x64 build through emulation, but the ARM64 one is native and faster.
 
 ### First launch
 
 - **macOS** — AudioSTAX is signed with a Developer ID and notarized by Apple: drag it to Applications and open it with a double click, no warnings.
-- **Windows** — if SmartScreen shows “Windows protected your PC”, click **More info → Run anyway**.
+- **Windows** — the Microsoft Store version opens with no warnings. With the installer or the ZIP, if SmartScreen shows “Windows protected your PC”, click **More info → Run anyway**.
 - **Linux** — the AppImage needs FUSE (`libfuse2` on older distributions); without it run `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
 ### How to use it
@@ -127,6 +129,7 @@ AudioSTAX prende una cartella di registrazioni, brani o video e te li restituisc
 | Sistema | File | Note |
 |---|---|---|
 | **macOS** 12+ (Apple Silicon) | `AudioSTAX-v<versione>-macOS.dmg` | apri il DMG e trascina AudioSTAX in Applicazioni |
+| **Windows** 10/11 (x64 e ARM64) | [Microsoft Store](https://apps.microsoft.com/detail/9NCLXR7CMNX4) | clicca **Ottieni**: lo Store installa la versione giusta e la tiene aggiornata |
 | **Windows** 10/11 (x64) | `AudioSTAX-v<versione>-Windows-x64-Setup.exe` | si installa per il tuo utente, senza diritti di amministratore |
 | | `AudioSTAX-v<versione>-Windows-x64.zip` | portabile: estrai e avvia `audiostax_ui.exe` |
 | **Windows** 11 su ARM (Snapdragon, Parallels su Mac) | `AudioSTAX-v<versione>-Windows-arm64-Setup.exe` | versione nativa ARM64, si installa per il tuo utente |
@@ -140,13 +143,13 @@ AudioSTAX prende una cartella di registrazioni, brani o video e te li restituisc
 | | `audiostax-<versione>-1.aarch64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<versione>-1.aarch64.rpm` |
 | | `AudioSTAX-v<versione>-Linux-aarch64.tar.gz` | estrai dove vuoi e avvia `AudioSTAX/audiostax_ui` |
 
-Tutti i file sono nella **[pagina Releases](https://github.com/kikoz85/audioSTAX/releases/latest)**, con i relativi checksum SHA-256.
+Tutti i file sono nella **[pagina Releases](https://github.com/kikoz85/audioSTAX/releases/latest)**, con i relativi checksum SHA-256. Su Windows la via più semplice è **[AudioSTAX sul Microsoft Store](https://apps.microsoft.com/detail/9NCLXR7CMNX4)**: stesse funzioni e strumenti inclusi dell'installer, aggiornamenti tramite lo Store, disinstallazione da **Impostazioni → App**.
 Linux ARM64 funziona su Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bit), Fedora 35 o successivi. Un PC Windows su ARM può usare anche la versione x64 in emulazione, ma quella ARM64 è nativa e più veloce.
 
 ### Primo avvio
 
 - **macOS** — AudioSTAX è firmato con un Developer ID e notarizzato da Apple: trascinalo in Applicazioni e aprilo con un doppio clic, senza avvisi.
-- **Windows** — se SmartScreen mostra “PC protetto da Windows”, clicca **Ulteriori informazioni → Esegui comunque**.
+- **Windows** — la versione del Microsoft Store si apre senza avvisi. Con l'installer o lo ZIP, se SmartScreen mostra “PC protetto da Windows”, clicca **Ulteriori informazioni → Esegui comunque**.
 - **Linux** — l'AppImage richiede FUSE (`libfuse2` sulle distribuzioni più vecchie); senza, avviala con `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
 ### Come si usa
