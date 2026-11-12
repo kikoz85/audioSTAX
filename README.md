@@ -8,6 +8,7 @@
 <p align="center">
 <a href="https://github.com/kikoz85/audioSTAX/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/audioSTAX?label=download&color=FF5722" alt="Download"></a>
 <a href="https://apps.microsoft.com/detail/9NCLXR7CMNX4"><img src="https://img.shields.io/badge/Microsoft%20Store-get%20it-0078D4?logo=microsoft&logoColor=white" alt="Get it from the Microsoft Store"></a>
+<a href="https://snapcraft.io/audiostax"><img src="https://img.shields.io/badge/Snap%20Store-get%20it-82BEA0?logo=snapcraft&logoColor=white" alt="Get it from the Snap Store"></a>
 <a href="https://www.enricofanucchi.com/en?utm_source=github&utm_campaign=audiostax"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
 <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white" alt="Sponsor AudioSTAX"></a>
 <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-E91E63" alt="macOS · Windows · Linux">
@@ -52,6 +53,7 @@ AudioSTAX takes a folder of recordings, songs or videos and gives you back files
 | | `AudioSTAX-v<version>-Windows-x64.zip` | portable: unzip and run `audiostax_ui.exe` |
 | **Windows** 11 on ARM (Snapdragon, Parallels on Mac) | `AudioSTAX-v<version>-Windows-arm64-Setup.exe` | native ARM64 build, installs for your user |
 | | `AudioSTAX-v<version>-Windows-arm64.zip` | portable ARM64 build |
+| **Linux** (x86_64 and ARM64) | [Snap Store](https://snapcraft.io/audiostax) | `sudo snap install audiostax`: Ubuntu and any distribution with snapd, updated automatically |
 | **Linux** (x86_64) | `AudioSTAX-v<version>-Linux-x86_64.AppImage` | `chmod +x` and run |
 | | `audiostax_<version>_amd64.deb` | Debian, Ubuntu, Mint: `sudo apt install ./audiostax_<version>_amd64.deb` |
 | | `audiostax-<version>-1.x86_64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<version>-1.x86_64.rpm` |
@@ -68,7 +70,7 @@ Linux ARM64 runs on Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bit), 
 
 - **macOS** — AudioSTAX is signed with a Developer ID and notarized by Apple: drag it to Applications and open it with a double click, no warnings.
 - **Windows** — the Microsoft Store version opens with no warnings. With the installer or the ZIP, if SmartScreen shows “Windows protected your PC”, click **More info → Run anyway**.
-- **Linux** — the AppImage needs FUSE (`libfuse2` on older distributions); without it run `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
+- **Linux** — the snap opens files in your home folder; for USB drives and external disks run `sudo snap connect audiostax:removable-media` once. The AppImage needs FUSE (`libfuse2` on older distributions); without it run `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
 ### How to use it
 
@@ -134,6 +136,7 @@ AudioSTAX prende una cartella di registrazioni, brani o video e te li restituisc
 | | `AudioSTAX-v<versione>-Windows-x64.zip` | portabile: estrai e avvia `audiostax_ui.exe` |
 | **Windows** 11 su ARM (Snapdragon, Parallels su Mac) | `AudioSTAX-v<versione>-Windows-arm64-Setup.exe` | versione nativa ARM64, si installa per il tuo utente |
 | | `AudioSTAX-v<versione>-Windows-arm64.zip` | versione ARM64 portabile |
+| **Linux** (x86_64 e ARM64) | [Snap Store](https://snapcraft.io/audiostax) | `sudo snap install audiostax`: Ubuntu e ogni distribuzione con snapd, aggiornato in automatico |
 | **Linux** (x86_64) | `AudioSTAX-v<versione>-Linux-x86_64.AppImage` | `chmod +x` e avvia |
 | | `audiostax_<versione>_amd64.deb` | Debian, Ubuntu, Mint: `sudo apt install ./audiostax_<versione>_amd64.deb` |
 | | `audiostax-<versione>-1.x86_64.rpm` | Fedora, openSUSE: `sudo dnf install ./audiostax-<versione>-1.x86_64.rpm` |
@@ -150,7 +153,7 @@ Linux ARM64 funziona su Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm (64-bi
 
 - **macOS** — AudioSTAX è firmato con un Developer ID e notarizzato da Apple: trascinalo in Applicazioni e aprilo con un doppio clic, senza avvisi.
 - **Windows** — la versione del Microsoft Store si apre senza avvisi. Con l'installer o lo ZIP, se SmartScreen mostra “PC protetto da Windows”, clicca **Ulteriori informazioni → Esegui comunque**.
-- **Linux** — l'AppImage richiede FUSE (`libfuse2` sulle distribuzioni più vecchie); senza, avviala con `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
+- **Linux** — lo snap apre i file nella tua cartella home; per chiavette USB e dischi esterni esegui una volta `sudo snap connect audiostax:removable-media`. L'AppImage richiede FUSE (`libfuse2` sulle distribuzioni più vecchie); senza, avviala con `./AudioSTAX-*.AppImage --appimage-extract-and-run`.
 
 ### Come si usa
 
